@@ -21,7 +21,7 @@ try:
       # print email
       if "gmail" in email:
         dom = email.split("@")[1]
-        # print email + ", " + dom + ", " + "gmail" + ", 2"
+        print email + ", "  + "2, " + dom + ", " + "gmail"
         count += 1
       else:
         dom = email.split("@")[1]
